@@ -1,0 +1,47 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* base typography */
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* b-link */
+.link {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 43px;
+  color: #816fca;
+}
+
+.link:hover {
+  color: #6f5fb3;
+}
+
+/* b-btn */
+.btn {
+  width: 184px;
+  padding: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #816fca;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+/* b-modal */
