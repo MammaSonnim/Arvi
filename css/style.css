@@ -12,7 +12,7 @@ body {
 h1 {
   font-family: 'Fredoka One', cursive;
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -20,12 +20,11 @@ h1 {
 .link {
   text-decoration: none;
   font-size: 12px;
-  line-height: 43px;
   color: #816fca;
 }
 
 .link:hover {
-  color: #6f5fb3;
+  opacity: 0.7;
 }
 
 /* b-btn */
@@ -43,5 +42,79 @@ h1 {
   white-space: nowrap;
 }
 
+.btn:hover {
+  background-color: #7262b6;
+}
+
+.btn:active {
+  background-color: #61539a;
+}
 
 /* b-modal */
+.modal {
+  width: 400px;
+  margin: 50px auto;
+  padding: 50px 50px 42px 50px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.modal__title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.modal__label {
+  display: inline-block;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal__input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 9px;
+  border: 2px solid #d7d7d7;
+  border-radius: 20px;
+}
+
+.modal__input:focus {
+  outline: none;
+  border-color: #816fca;
+}
+
+.modal__forgot-link {
+  float: right;
+  width: 40%;
+  margin-top: 12px;
+  text-align: right;
+}
+
+.modal__wrap {
+  position: relative;
+}
+
+.modal__visible {
+  position: absolute;
+  top: 15%;
+  right: 6%;
+  width: 24px;
+  height: 24px;
+  background: url(../img/icon-visibility.png) no-repeat 0 50%;
+}
+
+.modal__visible:hover {
+  opacity: 0.7;
+}
+
+.modal__btn {
+  display: block;
+  margin: 45px auto 15px;
+}
+
+.modal__create-link {
+  display: block;
+  text-align: center;
+}

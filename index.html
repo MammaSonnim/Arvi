@@ -10,13 +10,17 @@
 <body>
   <form class="modal" method="post" action="">
     <h1 class="modal__title">Sign in</h1>
-    <label for="email">Email</label>
+    <label class="modal__label" for="email">Email</label>
     <input class="modal__input" type="email" id="email" name="email"/>
-    <label for="password">Password</label>
-    <a class="modal__link link" href="#">forgot password</a>
-    <input class="modal__input modal__password" type="password" id="password" name="password"/>
+    <label class="modal__label" for="password">Password</label>
+    <a class="modal__forgot-link link" href="#">forgot password</a>
+    <div class="modal__wrap">
+      <input class="modal__input modal__password" type="password" id="password" name="password"/>
+      <!--   modal__visible сделан не фоном или псевдоэлементом, чтобы было событие нажатия  -->
+      <a href="#" class="modal__visible"></a>
+    </div>
     <button class="modal__btn btn" type="submit">Login</button>
-    <a class="modal__link link" href="#">I don't have an account</a>
+    <a class="modal__create-link link" href="#">I don't have an account</a>
   </form>
 </body>
 </html>
